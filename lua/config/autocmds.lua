@@ -2,6 +2,8 @@
 -- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
 -- Add any additional autocmds here
 
+pcall(require, "config.autocmds-nosync")
+
 -- Disable autoformat for php files
 vim.api.nvim_create_autocmd("FileType", {
   pattern = { "php", "inc" },
@@ -18,5 +20,5 @@ vim.api.nvim_create_autocmd("FileType", {
 
 vim.api.nvim_create_autocmd("FileType", {
   pattern = "lua",
-  command = "setlocal expandtab shiftwidth=2",
+  command = "setlocal expandtab tabstop=8 shiftwidth=2",
 })
