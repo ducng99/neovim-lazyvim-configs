@@ -77,5 +77,5 @@ map("v", "<C-f>", function()
 end, { desc = "Search selected text" })
 
 -- Session management
-map("n", "<leader>sml", "<cmd>SessionManager load_session<CR>", { desc = "Select a session" })
-map("n", "<leader>sms", "<cmd>SessionManager save_current_session<CR>", { desc = "Save current session" })
+map("n", "<leader>ql", "<cmd>SessionManager load_session<CR>", { desc = "Select a session" })
+map("n", "<leader>qs", "<cmd>SessionManager save_current_session<CR>", { desc = "Save current session" })
