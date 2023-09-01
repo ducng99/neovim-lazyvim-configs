@@ -4,14 +4,6 @@
 
 pcall(require, "config.autocmds-nosync")
 
--- Disable autoformat for php files
-vim.api.nvim_create_autocmd("FileType", {
-  pattern = { "php", "inc" },
-  callback = function()
-    vim.b.autoformat = false
-  end,
-})
-
 -- Set indentation based on file type
 vim.api.nvim_create_autocmd("FileType", {
   pattern = "go",
