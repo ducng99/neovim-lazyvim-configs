@@ -66,6 +66,7 @@ map("i", "<C-a>", insert_moveLineStart, { desc = "Move to line start" })
 map("i", "<Home>", insert_moveLineStart, { desc = "Move to line start" })
 map("n", "<C-a>", normal_moveLineStart, { desc = "Move to line start" })
 map("n", "<Home>", normal_moveLineStart, { desc = "Move to line start" })
+map("i", "<C-e>", "<End>", { desc = "Move to line end" })
 map("n", "<C-d>", "<C-d>zz", { desc = "Half page down" })
 map("n", "<C-u>", "<C-u>zz", { desc = "Half page down" })
 
