@@ -6,4 +6,4 @@ debug
 foo.*
 *.log
 data
-lua/config/nosync.lua
+lua/config/*-nosync.lua
