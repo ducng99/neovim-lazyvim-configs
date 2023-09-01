@@ -12,14 +12,6 @@ return {
     }
   },
   {
-    "lualine.nvim",
-    opts = {
-      options = {
-        theme = "vscode",
-      }
-    }
-  },
-  {
     "bufferline.nvim",
     opts = {
       highlights = {
@@ -66,17 +58,6 @@ return {
       },
     }
   },
-  -- {
-  --   "folke/tokyonight.nvim",
-  --   opts = {
-  --     -- style = "night",
-  --     transparent = true,
-  --     styles = {
-  --       sidebars = "transparent",
-  --       floats = "transparent",
-  --     },
-  --   },
-  -- },
   {
     "mini.indentscope",
     enabled = false,
